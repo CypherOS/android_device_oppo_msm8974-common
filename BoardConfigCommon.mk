@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# inherit from OPPO common
--include device/oppo/common/BoardConfigCommon.mk
+# inherit from oneplus common
+-include device/oneplus/common/BoardConfigCommon.mk
 
 PLATFORM_PATH := device/oppo/msm8974-common
 

@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "device_oneplus_common",
+    "target_path": "device/oneplus/common",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "vendor_oppo_msm8974-common",
+    "target_path": "vendor/oppo",
+    "remote":      "aoscp"
+  }
+]
