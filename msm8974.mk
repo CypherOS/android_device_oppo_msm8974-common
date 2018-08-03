@@ -56,11 +56,9 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    camera.device@1.0-impl \
-    Snap
+    camera.device@1.0-impl
 
 # Charger
-WITH_LINEAGE_CHARGER := false
 PRODUCT_PACKAGES += \
     charger_res_images
 
@@ -230,5 +228,5 @@ PRODUCT_PACKAGES += \
 # Call the proprietary setup
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor.mk)
 
-# Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+# Inherit from oneplus-common
+$(call inherit-product, device/oneplus/common/common.mk)
